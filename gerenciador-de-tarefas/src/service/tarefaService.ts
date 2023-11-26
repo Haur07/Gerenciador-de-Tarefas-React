@@ -2,18 +2,19 @@ import axios from 'axios';
 import Tarefa from '@/core/Tarefa';
 
 interface ApiResponse {
-    content: Tarefa[];
+    Tarefas: Tarefa[];
 }
 
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://localhost:3001';
 
 export const fetchTarefa = async (): Promise<Tarefa[]> => {
-  try {
-    const response = await axios.get<ApiResponse>(`${BASE_URL}/tarefas`);
-    return response.data.content;
-  } catch (error) {
-    throw new Error('Erro ao buscar tarefas');
-  }
+    try {
+        const response = await axios.get<ApiResponse>(`${BASE_URL}/tarefas`);
+        return response.data.Tarefas;
+    } catch (error) {
+        console.error('Erro ao buscar tarefas:', error);
+        throw new Error('Erro ao buscar tarefas');
+    }
 };
 
 export const cadastrarTarefa = async (tarefa: Tarefa): Promise<Tarefa> => {

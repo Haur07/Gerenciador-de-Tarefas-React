@@ -12,7 +12,7 @@ export default function Tarefas() {
   const [tarefa, setTarefa] = useState<Tarefa>(Tarefa.vazio())
   const [visivel, setVisivel] = useState<'tabela' | 'form'>('tabela')
   const [tarefas, setTarefas] = useState<Tarefa[]>([]);
-  const tarefas_predefinidas = Tarefa.geraTarefas()
+  //const tarefas_predefinidas = Tarefa.geraTarefas()
 
   useEffect(() => {
     if (visivel === 'tabela') {
@@ -24,11 +24,10 @@ export default function Tarefas() {
           console.error("Erro ao buscar as tarefas:", error);
         }
       }
-
+  
       loadTarefas();
     }
-  }, [visivel]);
-
+  }, [visivel]);  
 
   function tarefaSelecionada(tarefa: Tarefa) {
     setTarefa(tarefa)
@@ -93,7 +92,7 @@ export default function Tarefas() {
                 Nova Tarefa
               </Botao>
             </div>
-            <Tabela tarefas={tarefas_predefinidas}
+            <Tabela tarefas={tarefas}
               tarefaSelecionada={tarefaExcluida}
               tarefaExcluida={tarefaExcluida}></Tabela>
           </>
