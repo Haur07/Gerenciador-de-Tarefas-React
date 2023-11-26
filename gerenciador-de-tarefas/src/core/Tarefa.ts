@@ -11,13 +11,6 @@ export default class Tarefa {
         this.categoria = categoria;
     }
 
-    static geraTarefas() {
-        return [
-            new Tarefa(1, "Trabalho Front-End", "Alta", "Atividades"),
-            new Tarefa(2, "Estudar Prova SO2", "Alta", "Estudos")
-        ]
-    }
-
     static vazio(): Tarefa {
         return new Tarefa(null, "", "", "");
       }

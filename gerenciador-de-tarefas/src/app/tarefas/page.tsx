@@ -12,7 +12,6 @@ export default function Tarefas() {
   const [tarefa, setTarefa] = useState<Tarefa>(Tarefa.vazio())
   const [visivel, setVisivel] = useState<'tabela' | 'form'>('tabela')
   const [tarefas, setTarefas] = useState<Tarefa[]>([]);
-  //const tarefas_predefinidas = Tarefa.geraTarefas()
 
   useEffect(() => {
     if (visivel === 'tabela') {
@@ -93,7 +92,7 @@ export default function Tarefas() {
               </Botao>
             </div>
             <Tabela tarefas={tarefas}
-              tarefaSelecionada={tarefaExcluida}
+              tarefaSelecionada={tarefaSelecionada}
               tarefaExcluida={tarefaExcluida}></Tabela>
           </>
         ) : (

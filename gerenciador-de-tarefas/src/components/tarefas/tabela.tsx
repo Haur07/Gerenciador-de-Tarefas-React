@@ -27,7 +27,7 @@ export default function Tabela(props: TabelaProps) {
         return props.tarefas?.map((tarefa, i) => {
             return (
                 <tr key={tarefa.id}
-                    className={`${i % 2 === 0 ? 'bg-gradient-to-r from-sky-300 to-sky-400' : 'bg-gradient-to-r from-sky-200 to-sky-300'} `}>
+                    className={`${i % 2 === 0 ? 'bg-gradient-to-r from-sky-200 to-sky-300' : 'bg-gradient-to-r from-sky-300 to-sky-400'} `}>
                     <td className="text-left p-3 font-bold">{tarefa.id}</td>
                     <td className="text-left p-3">{tarefa.nome}</td>
                     <td className="text-left p-3">{tarefa.prioridade}</td>
