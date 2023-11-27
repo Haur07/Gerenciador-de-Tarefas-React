@@ -22,13 +22,13 @@
     </p>
     <h3 align="left">Linguagens & Ferramentas</h3>
     <p>
-      <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg">
-      <img width="3%" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
-      <img width="3%" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg">
-      <img width="3%" src="https://user-images.githubusercontent.com/99758843/184502135-2c372c7d-97ca-4e19-97e1-f0a1f52eaa60.png">
-      <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nodejs/nodejs-original.svg">
-      <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg">
-      <img width="3%" src="https://www.svgrepo.com/show/475654/github-color.svg">
+      <img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg">
+      <img width="5%" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
+      <img width="5%" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg">
+      <img width="5%" src="https://user-images.githubusercontent.com/99758843/184502135-2c372c7d-97ca-4e19-97e1-f0a1f52eaa60.png">
+      <img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/nodejs/nodejs-original.svg">
+      <img width="5%" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg">
+      <img width="5%" src="https://www.svgrepo.com/show/475654/github-color.svg">
     </p>
     <h1 align="left">Instruções de Uso</h1>
     <p align="justify">
