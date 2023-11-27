@@ -37,7 +37,10 @@
   </body>
 </html>
 
-- Certifique-se de que tenha os módulos necessários para rodar a aplicação
+- Certifique-se de que tenha os módulos necessários para rodar a aplicação. Caso necessário, rode o seguinte comando para instalar as dependências
+```bash
+  npm install next@latest react@latest react-dom@latest 
+```
 - Para iniciar a aplicação em um localhost, execute no terminal o seguinte comando
 ```bash
   npm run dev
